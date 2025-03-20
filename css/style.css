@@ -1,0 +1,121 @@
+
+    
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    text-align: center;
+    background-color: rgb(108, 163, 123);
+    height: 90px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    color: white;
+}
+
+.topo p {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.topo p:first-child {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nutri {
+    height: 250px;
+    background-image: url(https://nutricion360.es/wp-content/uploads/2019/06/chto-nujno-est-chtoby-pohudet.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.nutri h2 {
+    color: rgb(108, 163, 123);
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 270px;
+}
+
+.nutri .subtitulo {
+    color: rgb(108, 163, 123);
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 340px;
+}
+
+.sobre_mim h2 {
+    color: rgb(108, 163, 123);
+    background-color: rgb(245, 242, 242);
+    text-align: center;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+
+}
+
+.foto {
+
+    background-color: rgb(245, 242, 242);
+    width: 100%;
+    text-align: justify;
+    padding-left: 20px;
+
+
+}
+
+.foto img {
+    float: right;
+    margin-left: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.fique_por_dentro {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.fique_por_dentro h2 {
+    color: rgb(108, 163, 123);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fique_por_dentro img {
+    
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.fique_por_dentro h3 {
+    color: rgb(108, 163, 123);
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.fique_por_dentro p {
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.fique_por_dentro a {
+    text-align: justify;
+    text-decoration: none;
+    color: rgb(223, 46, 170);
+}
+

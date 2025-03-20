@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+}
+
+.topo {
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(108, 163, 123);
+    height: 90px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    color: white;
+}
+
+.topo p {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.topo p:first-child {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.subtitulo img {
+    
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.subtitulo h3, h2{
+
+    background-color: whitesmoke;
+    color: rgb(108, 163, 123);
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.subtitulo p {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.rodape img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
