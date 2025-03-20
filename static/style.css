@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    margin: 0;
+    margin: 0%;
     padding: 0;
     box-sizing: border-box;
     
@@ -42,14 +42,14 @@
     color: rgb(108, 163, 123);
     font-size: 30px;
     font-weight: bold;
-    padding-left: 200px;
+    padding-left: 180px;
 }
 
 .nutri .subtitulo {
     color: rgb(108, 163, 123);
     font-size: 12px;
     padding-top: 10px;
-    padding-left: 250px;
+    padding-left: 240px;
 }
 
 .sobre_mim {
