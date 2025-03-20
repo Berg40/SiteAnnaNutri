@@ -1,13 +1,14 @@
-
-    
 * {
-    
+    text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
 }
 
 .topo {
+    margin: 0%;
     text-align: center;
     background-color: rgb(108, 163, 123);
     height: 90px;
@@ -35,87 +36,89 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    
+    padding-left: 50px;
 }
-
 .nutri h2 {
     color: rgb(108, 163, 123);
     font-size: 30px;
     font-weight: bold;
-    padding-left: 270px;
+    padding-left: 200px;
 }
 
 .nutri .subtitulo {
     color: rgb(108, 163, 123);
     font-size: 12px;
-    padding-top: 20px;
-    padding-left: 340px;
+    padding-top: 10px;
+    padding-left: 250px;
 }
 
-.sobre_mim h2 {
+.sobre_mim {
     color: rgb(108, 163, 123);
-    background-color: rgb(245, 242, 242);
     text-align: center;
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
-
+    padding: 20px;
 }
 
 .foto {
-
-    background-color: rgb(245, 242, 242);
+    float: left;
     width: 100%;
-    text-align: justify;
-    padding-left: 20px;
+    text-align: center;
+    padding: 20px;
+}
 
-
+.foto h3 {
+    text-align: center;
+    
 }
 
 .foto img {
     float: right;
-    margin-left: 10px;
-    width: 50%;
+    max-width: 50%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 50px;
+    padding-left: 10px;
 }
 
-.fique_por_dentro {
-    background-color: whitesmoke;
-    text-align: center;
+.foto p {
+    text-align: justify;
+    padding: 10px;
 }
 
-.fique_por_dentro h2 {
+.fique_por_dentro h2{
     color: rgb(108, 163, 123);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fique_por_dentro h3{
+    color: rgb(108, 163, 123);
+    text-align: justify;
+    padding: 20px;
 }
 
 .fique_por_dentro img {
-    
-    width: 300px;
+    padding-top: 20px;
+    max-width: 100%;
     height: auto;
-    border-radius: 20px;
-}
-
-.fique_por_dentro h3 {
-    color: rgb(108, 163, 123);
-    text-align: justify;
-    padding-top: 10px;
-    padding-left: 20px;
+    border-radius: 10px;
 }
 
 .fique_por_dentro p {
     text-align: justify;
     padding: 20px;
-    
 }
 
-.fique_por_dentro a {
-    text-align: justify;
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff7f50;
+    color: white;
     text-decoration: none;
-    color: rgb(223, 46, 170);
+    border-radius: 5px;
+    font-weight: bold;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
